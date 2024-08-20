@@ -1,0 +1,8 @@
+#res, #addSection{
+    width: 100%;
+    min-height: 350px;
+    background: lightblue;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}

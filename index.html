@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Category buttons -->
+    <div class="buttons">
+        <span onclick="filterItems('all')">All</span>
+        <span onclick="filterItems('women')">Women</span>
+        <span onclick="filterItems('men')">Men</span>
+        <span onclick="filterItems('accessories')">Accessories</span>
+    </div>
+
+    <!-- Grid of items -->
+    <div class="grid">
+        <div class="grid-item" data-filter="women">
+            <img src="https://pvh-brands.imgix.net/catalog/product/media/K20K206509_ADF_MO-TP-F1_026.jpg?w=582&h=777&crop=edges&fit=crop&auto=format&ixlib=react-9.8.0" alt="Women's item">
+        </div>
+
+        <div class="grid-item" data-filter="men">
+            <img src="https://assets.vogue.com/photos/5891e0ebb482c0ea0e4db2a8/4:3/w_2560%2Cc_limit/02-lestrange.jpg" alt="Men's item">
+        </div>
+
+        <div class="grid-item" data-filter="accessories">
+            <img src="https://media.istockphoto.com/id/1208148708/photo/polka-dot-summer-brown-dress-suede-wedge-sandals-eco-straw-tote-bag-cosmetics-on-a-light.jpg?s=612x612&w=0&k=20&c=9Y135GYKHLlPotGIfynBbMPhXNbYeuDuFzreL_nfDE8=" alt="Accessories item">
+        </div>
+        
+        <div class="grid-item" data-filter="women">
+            <img src="https://www.alcott.eu/on/demandware.static/-/Sites-catalog-alcott-master/default/dw76025789/hi-res/GO0010DOAY14_BG3_001.jpg" alt="Women's item">
+        </div>
+
+        <div class="grid-item" data-filter="men">
+            <img src="https://cdn.pickystory.com/account-8dbeqGY/lookbook-MYdjRL3/look-5kyvXqE/cover-d0752115a70d40e19c827ab2fce005cc.jpeg?h=800" alt="Men's item">
+        </div>
+
+        <div class="grid-item" data-filter="accessories">
+            <img src="https://img.freepik.com/premium-vector/vector-illustration-girl-fashion-collection-apparel-set-cartoon-clothes-clothing-dress-gr_1013341-61490.jpg" alt="Accessories item">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="js/main.js"></script>
